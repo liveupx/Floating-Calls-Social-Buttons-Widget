@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Free floating calls and social buttons widget generator for any website. No login, no tracking, 100% privacy-first. Create embeddable contact buttons.">
+  <meta name="keywords" content="floating button, WhatsApp widget, call button, social buttons, website widget, contact widget, free widget, open source">
+  <meta name="author" content="Liveupx.com">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Floating Calls & Social Buttons Widget Generator | Liveupx">
+  <meta property="og:description" content="Create free floating contact buttons for your website. WhatsApp, phone, email, and social media. No tracking, 100% privacy-first.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Floating Calls & Social Buttons Widget Generator">
+  <meta name="twitter:description" content="Create free floating contact buttons for your website. 100% privacy-first, no tracking.">
+  
+  <title>Floating Calls & Social Buttons Widget Generator | Liveupx</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./css/builder.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="header-container">
+      <a href="/" class="logo">
+        <svg class="logo-icon" viewBox="0 0 32 32" fill="none">
+          <rect width="32" height="32" rx="8" fill="currentColor"/>
+          <circle cx="16" cy="16" r="8" fill="white"/>
+          <circle cx="16" cy="16" r="4" fill="currentColor"/>
+        </svg>
+        <span class="logo-text">Liveupx<span class="logo-badge">Widget</span></span>
+      </a>
+      
+      <nav class="nav">
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#builder" class="nav-link">Builder</a>
+        <a href="https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free" 
+           class="nav-link nav-link--cta" 
+           target="_blank" 
+           rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+            <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+      </nav>
+      
+      <button class="mobile-menu-btn" aria-label="Toggle menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          100% Free & Open Source
+        </div>
+        <h1 class="hero-title">
+          Floating Contact Buttons
+          <span class="gradient-text">for Any Website</span>
+        </h1>
+        <p class="hero-desc">
+          Add WhatsApp, phone, email, and social media buttons to your website in minutes. 
+          No login required. No tracking. No cookies. Just pure, privacy-first functionality.
+        </p>
+        <div class="hero-actions">
+          <a href="#builder" class="btn btn-primary">
+            Start Building
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7"/>
+            </svg>
+          </a>
+          <a href="#features" class="btn btn-secondary">
+            Learn More
+          </a>
+        </div>
+        <div class="hero-stats">
+          <div class="stat">
+            <span class="stat-value">&lt;10kb</span>
+            <span class="stat-label">Gzipped</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-value">0</span>
+            <span class="stat-label">Dependencies</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-value">100%</span>
+            <span class="stat-label">Privacy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Why Choose Us</span>
+        <h2 class="section-title">Built for Privacy & Performance</h2>
+        <p class="section-desc">Every feature designed with your visitors' privacy and your website's performance in mind.</p>
+      </div>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+            </svg>
+          </div>
+          <h3>Privacy First</h3>
+          <p>No cookies, no tracking, no analytics. Your visitors' data stays private. Always.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"/>
+            </svg>
+          </div>
+          <h3>Lightning Fast</h3>
+          <p>Under 10KB gzipped. Zero external dependencies. Won't slow down your site.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+              <line x1="8" y1="21" x2="16" y2="21"/>
+              <line x1="12" y1="17" x2="12" y2="21"/>
+            </svg>
+          </div>
+          <h3>Works Everywhere</h3>
+          <p>Compatible with any CMS: WordPress, Shopify, Wix, Squarespace, custom sites.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3"/>
+              <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"/>
+            </svg>
+          </div>
+          <h3>Fully Customizable</h3>
+          <p>Colors, icons, positions, behaviors - customize everything to match your brand.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3>Accessible</h3>
+          <p>ARIA labels, keyboard navigation, focus management. Usable by everyone.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/>
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96"/>
+              <line x1="12" y1="22.08" x2="12" y2="12"/>
+            </svg>
+          </div>
+          <h3>Open Source</h3>
+          <p>MIT licensed. Use it, modify it, contribute to it. No strings attached.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Builder Section -->
+  <section id="builder" class="builder-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Widget Builder</span>
+        <h2 class="section-title">Create Your Widget</h2>
+        <p class="section-desc">Configure your floating buttons and generate the embed code instantly.</p>
+      </div>
+      
+      <div class="builder-layout">
+        <!-- Configuration Panel -->
+        <div class="builder-panel">
+          <div class="panel-tabs">
+            <button class="panel-tab active" data-tab="buttons">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="8" x2="12" y2="16"/>
+                <line x1="8" y1="12" x2="16" y2="12"/>
+              </svg>
+              Buttons
+            </button>
+            <button class="panel-tab" data-tab="appearance">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="13.5" cy="6.5" r="2.5"/>
+                <path d="M17 3a2.83 2.83 0 1 1 4 4L7.5 20.5 2 22l1.5-5.5L17 3z"/>
+              </svg>
+              Appearance
+            </button>
+            <button class="panel-tab" data-tab="behavior">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="3"/>
+                <path d="M12 1v6M12 17v6M4.22 4.22l4.24 4.24M15.54 15.54l4.24 4.24M1 12h6M17 12h6M4.22 19.78l4.24-4.24M15.54 8.46l4.24-4.24"/>
+              </svg>
+              Behavior
+            </button>
+          </div>
+          
+          <!-- Buttons Tab -->
+          <div class="panel-content active" data-content="buttons">
+            <div class="buttons-list" id="buttonsList">
+              <!-- Buttons will be added here dynamically -->
+            </div>
+            
+            <button class="add-button-btn" id="addButtonBtn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <line x1="12" y1="8" x2="12" y2="16"/>
+                <line x1="8" y1="12" x2="16" y2="12"/>
+              </svg>
+              Add Button
+            </button>
+            
+            <!-- Button Type Modal -->
+            <div class="button-type-modal" id="buttonTypeModal">
+              <div class="modal-header">
+                <h4>Choose Button Type</h4>
+                <button class="modal-close" id="closeModalBtn">&times;</button>
+              </div>
+              <div class="button-types-grid">
+                <button class="button-type-option" data-type="phone">
+                  <span class="type-icon phone-icon"></span>
+                  <span>Phone</span>
+                </button>
+                <button class="button-type-option" data-type="whatsapp">
+                  <span class="type-icon whatsapp-icon"></span>
+                  <span>WhatsApp</span>
+                </button>
+                <button class="button-type-option" data-type="email">
+                  <span class="type-icon email-icon"></span>
+                  <span>Email</span>
+                </button>
+                <button class="button-type-option" data-type="sms">
+                  <span class="type-icon sms-icon"></span>
+                  <span>SMS</span>
+                </button>
+                <button class="button-type-option" data-type="telegram">
+                  <span class="type-icon telegram-icon"></span>
+                  <span>Telegram</span>
+                </button>
+                <button class="button-type-option" data-type="messenger">
+                  <span class="type-icon messenger-icon"></span>
+                  <span>Messenger</span>
+                </button>
+                <button class="button-type-option" data-type="viber">
+                  <span class="type-icon viber-icon"></span>
+                  <span>Viber</span>
+                </button>
+                <button class="button-type-option" data-type="instagram">
+                  <span class="type-icon instagram-icon"></span>
+                  <span>Instagram</span>
+                </button>
+                <button class="button-type-option" data-type="facebook">
+                  <span class="type-icon facebook-icon"></span>
+                  <span>Facebook</span>
+                </button>
+                <button class="button-type-option" data-type="twitter">
+                  <span class="type-icon twitter-icon"></span>
+                  <span>X (Twitter)</span>
+                </button>
+                <button class="button-type-option" data-type="linkedin">
+                  <span class="type-icon linkedin-icon"></span>
+                  <span>LinkedIn</span>
+                </button>
+                <button class="button-type-option" data-type="youtube">
+                  <span class="type-icon youtube-icon"></span>
+                  <span>YouTube</span>
+                </button>
+                <button class="button-type-option" data-type="tiktok">
+                  <span class="type-icon tiktok-icon"></span>
+                  <span>TikTok</span>
+                </button>
+                <button class="button-type-option" data-type="discord">
+                  <span class="type-icon discord-icon"></span>
+                  <span>Discord</span>
+                </button>
+                <button class="button-type-option" data-type="skype">
+                  <span class="type-icon skype-icon"></span>
+                  <span>Skype</span>
+                </button>
+                <button class="button-type-option" data-type="link">
+                  <span class="type-icon link-icon"></span>
+                  <span>Custom Link</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Appearance Tab -->
+          <div class="panel-content" data-content="appearance">
+            <div class="form-group">
+              <label class="form-label">Position</label>
+              <div class="position-grid">
+                <button class="position-btn" data-position="top-left">↖ Top Left</button>
+                <button class="position-btn" data-position="top-right">↗ Top Right</button>
+                <button class="position-btn" data-position="bottom-left">↙ Bottom Left</button>
+                <button class="position-btn active" data-position="bottom-right">↘ Bottom Right</button>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Main Button Color</label>
+              <div class="color-input-wrapper">
+                <input type="color" id="mainButtonColor" value="#25D366" class="color-input">
+                <input type="text" id="mainButtonColorText" value="#25D366" class="color-text-input">
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Main Button Icon</label>
+              <div class="icon-select-grid">
+                <button class="icon-select-btn active" data-icon="menu" title="Menu">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+                </button>
+                <button class="icon-select-btn" data-icon="plus" title="Plus">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                </button>
+                <button class="icon-select-btn" data-icon="chat" title="Chat">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+                </button>
+                <button class="icon-select-btn" data-icon="phone" title="Phone">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                </button>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Button Size: <span id="sizeValue">56</span>px</label>
+              <input type="range" id="mainButtonSize" min="40" max="72" value="56" class="range-input">
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Expand Direction</label>
+              <div class="direction-select">
+                <button class="direction-btn active" data-direction="up">↑ Up</button>
+                <button class="direction-btn" data-direction="down">↓ Down</button>
+                <button class="direction-btn" data-direction="left">← Left</button>
+                <button class="direction-btn" data-direction="right">→ Right</button>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Label Position</label>
+              <div class="label-position-select">
+                <button class="label-pos-btn active" data-labelpos="left">← Left</button>
+                <button class="label-pos-btn" data-labelpos="right">Right →</button>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label checkbox-label">
+                <input type="checkbox" id="showLabels" checked>
+                <span class="checkbox-custom"></span>
+                Show button labels on hover
+              </label>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label checkbox-label">
+                <input type="checkbox" id="pulseAnimation" checked>
+                <span class="checkbox-custom"></span>
+                Enable pulse animation
+              </label>
+            </div>
+          </div>
+          
+          <!-- Behavior Tab -->
+          <div class="panel-content" data-content="behavior">
+            <div class="form-group">
+              <label class="form-label">Trigger Type</label>
+              <div class="trigger-select">
+                <button class="trigger-btn active" data-trigger="click">Click</button>
+                <button class="trigger-btn" data-trigger="hover">Hover</button>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Show After Scroll: <span id="scrollValue">0</span>px</label>
+              <input type="range" id="showOnScroll" min="0" max="1000" step="50" value="0" class="range-input">
+              <p class="form-hint">Set to 0 to always show. Otherwise, widget appears after scrolling this many pixels.</p>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Show Delay: <span id="delayValue">0</span>ms</label>
+              <input type="range" id="showDelay" min="0" max="5000" step="100" value="0" class="range-input">
+              <p class="form-hint">Delay before widget appears on page load.</p>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Z-Index: <span id="zIndexValue">9999</span></label>
+              <input type="range" id="zIndex" min="1" max="99999" step="1" value="9999" class="range-input">
+              <p class="form-hint">Higher values ensure widget appears above other elements.</p>
+            </div>
+            
+            <div class="form-group">
+              <label class="form-label">Spacing: <span id="spacingValue">16</span>px</label>
+              <input type="range" id="spacing" min="8" max="32" value="16" class="range-input">
+              <p class="form-hint">Space between buttons.</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Preview Panel -->
+        <div class="preview-panel">
+          <div class="preview-header">
+            <h3>Live Preview</h3>
+            <div class="preview-device-toggle">
+              <button class="device-btn active" data-device="desktop" title="Desktop">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                  <line x1="8" y1="21" x2="16" y2="21"/>
+                  <line x1="12" y1="17" x2="12" y2="21"/>
+                </svg>
+              </button>
+              <button class="device-btn" data-device="mobile" title="Mobile">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="5" y="2" width="14" height="20" rx="2" ry="2"/>
+                  <line x1="12" y1="18" x2="12.01" y2="18"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="preview-frame" id="previewFrame">
+            <div class="preview-content">
+              <div class="preview-placeholder">
+                <div class="placeholder-header"></div>
+                <div class="placeholder-nav"></div>
+                <div class="placeholder-hero">
+                  <div class="placeholder-title"></div>
+                  <div class="placeholder-text"></div>
+                  <div class="placeholder-text short"></div>
+                </div>
+                <div class="placeholder-grid">
+                  <div class="placeholder-card"></div>
+                  <div class="placeholder-card"></div>
+                  <div class="placeholder-card"></div>
+                </div>
+              </div>
+              <div class="preview-widget" id="previewWidget">
+                <!-- Widget preview will be rendered here -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Generated Code Section -->
+      <div class="code-section">
+        <div class="code-header">
+          <h3>Generated Embed Code</h3>
+          <button class="copy-btn" id="copyCodeBtn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+              <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+            </svg>
+            Copy Code
+          </button>
+        </div>
+        <div class="code-block">
+          <pre><code id="generatedCode"></code></pre>
+        </div>
+        <p class="code-hint">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <line x1="12" y1="16" x2="12" y2="12"/>
+            <line x1="12" y1="8" x2="12.01" y2="8"/>
+          </svg>
+          Paste this code before the closing <code>&lt;/body&gt;</code> tag on your website.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Installation Guide -->
+  <section class="install-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Installation</span>
+        <h2 class="section-title">Easy Setup for Any Platform</h2>
+        <p class="section-desc">Works with WordPress, Shopify, Wix, Squarespace, and any HTML website.</p>
+      </div>
+      
+      <div class="install-tabs">
+        <button class="install-tab active" data-install="html">HTML / Generic</button>
+        <button class="install-tab" data-install="wordpress">WordPress</button>
+        <button class="install-tab" data-install="shopify">Shopify</button>
+        <button class="install-tab" data-install="wix">Wix</button>
+      </div>
+      
+      <div class="install-content active" data-install-content="html">
+        <div class="install-steps">
+          <div class="install-step">
+            <span class="step-number">1</span>
+            <div class="step-content">
+              <h4>Configure Your Widget</h4>
+              <p>Use the builder above to customize your buttons, colors, and behavior.</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">2</span>
+            <div class="step-content">
+              <h4>Copy the Generated Code</h4>
+              <p>Click the "Copy Code" button to copy your embed snippet.</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">3</span>
+            <div class="step-content">
+              <h4>Paste Before &lt;/body&gt;</h4>
+              <p>Add the code just before the closing <code>&lt;/body&gt;</code> tag in your HTML.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="install-content" data-install-content="wordpress">
+        <div class="install-steps">
+          <div class="install-step">
+            <span class="step-number">1</span>
+            <div class="step-content">
+              <h4>Go to Theme Editor</h4>
+              <p>Navigate to Appearance → Theme File Editor in your WordPress dashboard.</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">2</span>
+            <div class="step-content">
+              <h4>Edit footer.php</h4>
+              <p>Find and open your theme's <code>footer.php</code> file.</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">3</span>
+            <div class="step-content">
+              <h4>Paste the Code</h4>
+              <p>Add the generated code just before <code>&lt;/body&gt;</code> and save.</p>
+            </div>
+          </div>
+        </div>
+        <div class="install-tip">
+          <strong>Pro Tip:</strong> You can also use a plugin like "Insert Headers and Footers" to add the code without editing theme files.
+        </div>
+      </div>
+      
+      <div class="install-content" data-install-content="shopify">
+        <div class="install-steps">
+          <div class="install-step">
+            <span class="step-number">1</span>
+            <div class="step-content">
+              <h4>Open Theme Editor</h4>
+              <p>Go to Online Store → Themes → Edit code.</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">2</span>
+            <div class="step-content">
+              <h4>Edit theme.liquid</h4>
+              <p>Find <code>theme.liquid</code> in the Layout folder.</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">3</span>
+            <div class="step-content">
+              <h4>Paste Before &lt;/body&gt;</h4>
+              <p>Add the code just before <code>&lt;/body&gt;</code> and save.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="install-content" data-install-content="wix">
+        <div class="install-steps">
+          <div class="install-step">
+            <span class="step-number">1</span>
+            <div class="step-content">
+              <h4>Go to Settings</h4>
+              <p>In your Wix dashboard, go to Settings → Custom Code.</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">2</span>
+            <div class="step-content">
+              <h4>Add Custom Code</h4>
+              <p>Click "Add Code to Body - End".</p>
+            </div>
+          </div>
+          <div class="install-step">
+            <span class="step-number">3</span>
+            <div class="step-content">
+              <h4>Paste and Save</h4>
+              <p>Paste your code and choose "All pages". Save changes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2>Ready to Add Contact Buttons?</h2>
+        <p>Start creating your widget now. No sign-up required.</p>
+        <a href="#builder" class="btn btn-primary btn-lg">
+          Start Building Free
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <a href="/" class="logo">
+            <svg class="logo-icon" viewBox="0 0 32 32" fill="none">
+              <rect width="32" height="32" rx="8" fill="currentColor"/>
+              <circle cx="16" cy="16" r="8" fill="white"/>
+              <circle cx="16" cy="16" r="4" fill="currentColor"/>
+            </svg>
+            <span class="logo-text">Liveupx</span>
+          </a>
+          <p>Privacy-first floating contact widget for any website. Free, open-source, and zero tracking.</p>
+        </div>
+        
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Product</h4>
+            <a href="#features">Features</a>
+            <a href="#builder">Builder</a>
+            <a href="https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free" target="_blank">GitHub</a>
+          </div>
+          <div class="footer-col">
+            <h4>Resources</h4>
+            <a href="https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free#readme" target="_blank">Documentation</a>
+            <a href="https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/blob/main/CONTRIBUTING.md" target="_blank">Contributing</a>
+            <a href="https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/blob/main/LICENSE" target="_blank">License (MIT)</a>
+          </div>
+          <div class="footer-col">
+            <h4>Contact</h4>
+            <a href="mailto:info@liveupx.com">info@liveupx.com</a>
+            <a href="https://liveupx.com" target="_blank">liveupx.com</a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2024 Liveupx.com. All rights reserved. MIT License.</p>
+        <div class="footer-badges">
+          <span class="badge">No Cookies</span>
+          <span class="badge">No Tracking</span>
+          <span class="badge">100% Free</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Button Edit Modal -->
+  <div class="edit-modal-overlay" id="editModalOverlay">
+    <div class="edit-modal" id="editModal">
+      <div class="edit-modal-header">
+        <h3 id="editModalTitle">Edit Button</h3>
+        <button class="modal-close" id="closeEditModal">&times;</button>
+      </div>
+      <div class="edit-modal-body" id="editModalBody">
+        <!-- Dynamic form fields will be inserted here -->
+      </div>
+      <div class="edit-modal-footer">
+        <button class="btn btn-secondary" id="cancelEditBtn">Cancel</button>
+        <button class="btn btn-primary" id="saveEditBtn">Save Changes</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/builder.js"></script>
+</body>
+</html>

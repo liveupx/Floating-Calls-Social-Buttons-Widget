@@ -1,0 +1,47 @@
+{
+  "name": "floating-calls-social-buttons-widget",
+  "version": "1.0.0",
+  "description": "A free, open-source, privacy-first floating contact button widget for any website. Add WhatsApp, phone, email, social media, and custom contact buttons with zero dependencies.",
+  "main": "dist/widget.min.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "terser src/widget.js -o dist/widget.min.js -c -m --source-map \"url='widget.min.js.map'\"",
+    "dev": "npx http-server . -p 3000 -o",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "floating-button",
+    "contact-widget",
+    "whatsapp-button",
+    "click-to-call",
+    "social-buttons",
+    "website-widget",
+    "floating-contact",
+    "chat-button",
+    "call-button",
+    "whatsapp-chat",
+    "floating-action-button",
+    "fab",
+    "lead-generation",
+    "no-code",
+    "privacy-first",
+    "vanilla-javascript",
+    "lightweight",
+    "accessible"
+  ],
+  "author": "LiveUpx.com <info@liveupx.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free.git"
+  },
+  "bugs": {
+    "url": "https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/issues"
+  },
+  "devDependencies": {
+    "terser": "^5.44.1"
+  }
+}
