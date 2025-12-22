@@ -10,7 +10,13 @@ A **free, open-source, privacy-first** floating contact button widget for any we
 
 🔗 **[Live Demo & Builder]([https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget])** | 📚 **[Documentation](#documentation)** | 💬 **[Support](#support)**
 
-![Floating Widget Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Floating+Widget+Preview)
+![Floating Widget Preview]
+
+<img src="demo1.png" alt="FloatButtons Widget Demo" width="1000px">
+<img src="demo2.png" alt="FloatButtons Widget Demo" width="1000px">
+<img src="demo3.png" alt="FloatButtons Widget Demo" width="1000px">
+<img src="demo4.png" alt="FloatButtons Widget Demo" width="1000px">
+<img src="demo5.png" alt="FloatButtons Widget Demo" width="1000px">
 
 ---
 
