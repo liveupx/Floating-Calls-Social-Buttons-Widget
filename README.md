@@ -8,7 +8,7 @@
 
 A **free, open-source, privacy-first** floating contact button widget for any website. Add WhatsApp, phone, email, social media, and custom contact buttons to your site in minutes—no coding required!
 
-🔗 **[Live Demo & Builder](https://liveupx.com/floating-widget)** | 📚 **[Documentation](#documentation)** | 💬 **[Support](#support)**
+🔗 **[Live Demo & Builder]([https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget])** | 📚 **[Documentation](#documentation)** | 💬 **[Support](#support)**
 
 ![Floating Widget Preview](https://via.placeholder.com/800x400/1a1a2e/ffffff?text=Floating+Widget+Preview)
 
@@ -43,7 +43,7 @@ A **free, open-source, privacy-first** floating contact button widget for any we
 
 ### Option 1: Use the Visual Builder (Recommended)
 
-1. Visit our **[Online Builder](https://liveupx.com/floating-widget)**
+1. Visit our **[Online Builder](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget)**
 2. Add your contact buttons
 3. Customize appearance and behavior
 4. Copy the generated code
@@ -437,8 +437,8 @@ Developed with ❤️ by **[LiveUpx.com](https://liveupx.com)**
 ## 📞 Support
 
 - 📧 **Email**: [info@liveupx.com](mailto:info@liveupx.com)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/discussions)
+- 🐛 **Issues**: [GitHub Issues](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget/discussions)
 
 ---
 
