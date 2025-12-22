@@ -1,14 +1,14 @@
 # 🚀 Floating Calls & Social Buttons Widget
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/liveupx/Floating-Calls-Social-Buttons-for-Website-free?style=social)](https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/liveupx/Floating-Calls-Social-Buttons-Widget?style=social)](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![Zero Dependencies](https://img.shields.io/badge/dependencies-zero-success)](package.json)
 [![Size](https://img.shields.io/badge/size-<10kb%20gzipped-blue)](dist/widget.min.js)
 
 A **free, open-source, privacy-first** floating contact button widget for any website. Add WhatsApp, phone, email, social media, and custom contact buttons to your site in minutes—no coding required!
 
-🔗 **[Live Demo & Builder]([https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget])** | 📚 **[Documentation](#documentation)** | 💬 **[Support](#support)**
+🔗 **[Live Demo & Builder](https://liveupx.github.io/Floating-Calls-Social-Buttons-Widget/)** | 📚 **[Documentation](#documentation)** | 💬 **[Support](#support)**
 
 ![Floating Widget Preview]
 
@@ -49,7 +49,7 @@ A **free, open-source, privacy-first** floating contact button widget for any we
 
 ### Option 1: Use the Visual Builder (Recommended)
 
-1. Visit our **[Online Builder](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget)**
+1. Visit our **[Online Builder](https://liveupx.github.io/Floating-Calls-Social-Buttons-Widget/)**
 2. Add your contact buttons
 3. Customize appearance and behavior
 4. Copy the generated code
@@ -72,7 +72,7 @@ Add this code before your closing `</body>` tag:
     mainButton: { icon: 'chat', color: '#6366f1' }
   };
 </script>
-<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-for-Website-free@latest/dist/widget.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-Widget@latest/dist/widget.min.js" defer></script>
 ```
 
 ### Option 3: Self-Hosted
@@ -289,8 +289,8 @@ floating-widget/
 
 ```bash
 # Clone the repository
-git clone https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free.git
-cd Floating-Calls-Social-Buttons-for-Website-free
+git clone https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget.git
+cd Floating-Calls-Social-Buttons-Widget
 
 # Install dependencies
 npm install
@@ -325,7 +325,7 @@ npm run test     # Run tests
     ]
   };
 </script>
-<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-for-Website-free@latest/dist/widget.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-Widget@latest/dist/widget.min.js" defer></script>
 ```
 
 ### Full-Featured Setup
@@ -366,7 +366,7 @@ npm run test     # Run tests
     }
   };
 </script>
-<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-for-Website-free@latest/dist/widget.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-Widget@latest/dist/widget.min.js" defer></script>
 ```
 
 ### Left-Side Position
@@ -456,14 +456,14 @@ Developed with ❤️ by **[LiveUpx.com](https://liveupx.com)**
 
 ## 📊 Stats
 
-![GitHub last commit](https://img.shields.io/github/last-commit/liveupx/Floating-Calls-Social-Buttons-for-Website-free)
-![GitHub issues](https://img.shields.io/github/issues/liveupx/Floating-Calls-Social-Buttons-for-Website-free)
-![GitHub pull requests](https://img.shields.io/github/issues-pr/liveupx/Floating-Calls-Social-Buttons-for-Website-free)
+![GitHub last commit](https://img.shields.io/github/last-commit/liveupx/Floating-Calls-Social-Buttons-Widget)
+![GitHub issues](https://img.shields.io/github/issues/liveupx/Floating-Calls-Social-Buttons-Widget)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/liveupx/Floating-Calls-Social-Buttons-Widget)
 
 ---
 
 <p align="center">
   Made with ❤️ for the open-source community
   <br>
-  <a href="https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free">⭐ Star us on GitHub</a>
+  <a href="https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget">⭐ Star us on GitHub</a>
 </p>

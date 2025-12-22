@@ -33,13 +33,13 @@
   ],
   "author": "LiveUpx.com <info@liveupx.com>",
   "license": "MIT",
-  "homepage": "https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free",
+  "homepage": "https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget",
   "repository": {
     "type": "git",
-    "url": "https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free.git"
+    "url": "https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget.git"
   },
   "bugs": {
-    "url": "https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/issues"
+    "url": "https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget/issues"
   },
   "devDependencies": {
     "terser": "^5.44.1"

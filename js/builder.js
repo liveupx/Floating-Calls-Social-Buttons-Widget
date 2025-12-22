@@ -834,7 +834,7 @@
 <script>
   window.floatingWidgetConfig = ${configStr};
 </script>
-<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-for-Website-free@latest/dist/widget.min.js" defer></script>`;
+<script src="https://cdn.jsdelivr.net/gh/liveupx/Floating-Calls-Social-Buttons-Widget@latest/dist/widget.min.js" defer></script>`;
     
     elements.generatedCode.textContent = code;
   }

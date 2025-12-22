@@ -3,7 +3,7 @@
  * @version 1.0.0
  * @author Liveupx.com
  * @license MIT
- * @repository https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free
+ * @repository https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget
  * 
  * A lightweight, privacy-first floating button widget for websites.
  * No cookies, no tracking, no external dependencies.

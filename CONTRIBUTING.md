@@ -33,12 +33,12 @@ This project and everyone participating in it is governed by our commitment to c
 1. **Fork the repository** on GitHub
 2. **Clone your fork** locally:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/Floating-Calls-Social-Buttons-for-Website-free.git
-   cd Floating-Calls-Social-Buttons-for-Website-free
+   git clone https://github.com/YOUR-USERNAME/Floating-Calls-Social-Buttons-Widget.git
+   cd Floating-Calls-Social-Buttons-Widget
    ```
 3. **Add the upstream remote**:
    ```bash
-   git remote add upstream https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free.git
+   git remote add upstream https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget.git
    ```
 4. **Create a branch** for your changes:
    ```bash
@@ -52,7 +52,7 @@ This project and everyone participating in it is governed by our commitment to c
 #### 🐛 Bug Fixes
 Found a bug? We'd love your help fixing it!
 
-1. Check if the bug is already reported in [Issues](https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/issues)
+1. Check if the bug is already reported in [Issues](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget/issues)
 2. If not, create a new issue describing the bug
 3. Fork the repo and create a fix
 4. Submit a pull request
@@ -93,8 +93,8 @@ Improve the visual builder or widget appearance!
 
 ```bash
 # Clone your fork
-git clone https://github.com/YOUR-USERNAME/Floating-Calls-Social-Buttons-for-Website-free.git
-cd Floating-Calls-Social-Buttons-for-Website-free
+git clone https://github.com/YOUR-USERNAME/Floating-Calls-Social-Buttons-Widget.git
+cd Floating-Calls-Social-Buttons-Widget
 
 # Install dependencies
 npm install
@@ -350,8 +350,8 @@ Any other relevant information.
 ## Questions?
 
 - 📧 Email: [info@liveupx.com](mailto:info@liveupx.com)
-- 💬 Discussions: [GitHub Discussions](https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/discussions)
-- 🐛 Issues: [GitHub Issues](https://github.com/liveupx/Floating-Calls-Social-Buttons-for-Website-free/issues)
+- 💬 Discussions: [GitHub Discussions](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget/discussions)
+- 🐛 Issues: [GitHub Issues](https://github.com/liveupx/Floating-Calls-Social-Buttons-Widget/issues)
 
 ---
 
