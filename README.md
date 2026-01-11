@@ -9,7 +9,7 @@ by www.Liveupx.com
 
 A **free, open-source, privacy-first** floating contact button widget for any website. Add WhatsApp, phone, email, social media, and custom contact buttons to your site in minutes—no coding required!
 
-🔗 **[Live Demo & Builder](https://liveupx.github.io/Floating-Calls-Social-Buttons-Widget/)** | 📚 **[Documentation](#documentation)** | 💬 **[Support](#support)**
+🔗 **[Repo](https://liveupx.github.io/Floating-Calls-Social-Buttons-Widget/)** | 📚 **[Documentation](#documentation)** | 💬 **[Support](#support)**
 
 ![Floating Widget Preview]
 
